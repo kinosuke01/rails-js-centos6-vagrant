@@ -227,6 +227,7 @@ SQL
       #{FUNCTION_INSTALL}
       echo installing JDE
       install "JDK" java-1.8.0-openjdk java-1.8.0-openjdk-devel
+      echo export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk.x86_64 >> /home/vagrant/.bashrc
     SHELL
   end
 
