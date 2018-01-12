@@ -226,7 +226,7 @@ SQL
     config.vm.provision "shell", privileged: true, inline: <<-SHELL
       #{FUNCTION_INSTALL}
       echo installing JDE
-      install "JDK" java-1.8.0-openjdk
+      install "JDK" java-1.8.0-openjdk java-1.8.0-openjdk-devel
     SHELL
   end
 
